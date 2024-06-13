@@ -16,8 +16,6 @@ public class SessionManager : MonoBehaviour
 
     [SerializeField] private GameObject environmentObject;
 
-    //[SerializeField] private List<GameObject> allTargets;
-
     [SerializeField] private TMP_Text textTopPanel;
 
     [SerializeField] private GameObject locationPinPrefab; // prefab for display location pin
@@ -30,19 +28,6 @@ public class SessionManager : MonoBehaviour
     private Target _originTarget; // stores origion target location
     private Target _destinationTarget; // stores destination target location
     private List<Target> allTargets; // target game object used for navigation
-    //private TargetHandler targetHandler;
-
-    //private void Awake()
-    //{
-    //    TargetHandler targetHandler = FindObjectOfType<TargetHandler>();
-
-    //    // Check if targetHandler is null after attempting to find it
-    //    if (targetHandler == null)
-    //    {
-    //        Debug.LogError("TargetHandler not found in the scene!");
-    //    }
-    //}
-
 
     private void Start()
     {
@@ -72,9 +57,6 @@ public class SessionManager : MonoBehaviour
     {
         sessionOrigin.transform.position = _originTarget.Position;
         sessionOrigin.transform.rotation = new Quaternion(0f, 100f, 0f, 1f);
-        // more reliable way to set rotations in Unity is to use helper methods that handle the underlying quaternion math for you
-        // sessionOrigin.transform.rotation = Quaternion.Euler(0f, 100f, 0f);
-
     }
 
     /// <summary>
@@ -96,12 +78,6 @@ public class SessionManager : MonoBehaviour
         sessionOrigin.transform.position = Vector3.zero; // Vector3.zero returns a vector with all components set to 0
         sessionOrigin.transform.rotation = Quaternion.identity; // Quaternion.identity returns the identity quaternion, which represents no rotation (i.e., (0, 0, 0, 1)).
     }
-
-    //public void ToggleArAbility()
-    //{
-    //    session.enabled = !session.enabled;
-    //    arButtonText.text = session.enabled ? "Disable AR" : "Enable AR";
-    //}
 
     /// <summary>
     /// Finds and returns a target by name from the allTargets list.

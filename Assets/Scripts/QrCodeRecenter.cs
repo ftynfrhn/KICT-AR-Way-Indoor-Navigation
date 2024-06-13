@@ -64,10 +64,8 @@ public class QrCodeRecenter : MonoBehaviour
         if (result != null)
         {
             //Target selectedTarget = targetList[index];
-            //_currentSelectedLocation = selectedTarget.Name;
             MySceneManager.OriginLocationName = result.Text; // Store destination location name
             MySceneManager.LoadScene("ARNavigation");
-            //SetQrCodeRecenterTarget(result.Text);
             ToggleScanning();
         }
     }

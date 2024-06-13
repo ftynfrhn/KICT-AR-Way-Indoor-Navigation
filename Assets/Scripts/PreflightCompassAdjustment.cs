@@ -17,7 +17,6 @@ public class PreflightCompassAdjustment : MonoBehaviour
     
     // Adjust these values to control the smoothness
     [SerializeField] private float rotationSpeed = 5f;
-    // [SerializeField] private float angleThreshold = 1f;
     
     // Phone level detection, indicate phone is properly leveled
     [SerializeField] private GameObject phoneLevelPanel;
@@ -28,8 +27,8 @@ public class PreflightCompassAdjustment : MonoBehaviour
     private bool _navigationStarted; // track if navigation has started
 
     // ensure that the AR content aligns correctly with the physical environment and provides an accurate and reliable user experience
-    private const float BuildingHeading = 265f; // yeah sometimes not correct, need more calibration
-    private float _correctedHeading; // stoores corrected heading value
+    private const float BuildingHeading = 265f; // need more calibration, sometimes not correct
+    private float _correctedHeading; // stores corrected heading value
 
     private void Start()
     {
@@ -55,8 +54,6 @@ public class PreflightCompassAdjustment : MonoBehaviour
         
         // Stop Input.Compass from handling the operation
         // Let AR things to the job
-        // _startTracking = false;
-        // _startTrackingEditor = false;
         session.GetComponent<ARInputManager>().enabled = true;
     }
 

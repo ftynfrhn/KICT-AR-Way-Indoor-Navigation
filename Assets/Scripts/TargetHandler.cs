@@ -40,12 +40,6 @@ public class TargetHandler : MonoBehaviour
     /// <returns>A list of Target objects.</returns>
     public List<Target> GetTargetList()
     {
-        // Check if currentTargetItems is empty and reload if necessary
-        //if (currentTargetItems == null || currentTargetItems.Count == 0)
-        //{
-        //    currentTargetItems = LoadTargetData().ToList();
-        //}
-
         Debug.Log($"Number of elements in currentTargetItems in GetTargetList(): {currentTargetItems.Count}");
         return currentTargetItems;
     }
