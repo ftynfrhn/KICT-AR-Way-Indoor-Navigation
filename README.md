@@ -22,7 +22,7 @@ The activity diagram below shows the overall working principal of the applicatio
 
 ![FYP Activity Diagram](https://github.com/ftynfrhn/KICT-AR-Way-Indoor-Navigation/assets/123931608/477a0a43-9b55-4be2-b8ba-4416191731b4)
 
-Download the app from the build folder in the Assets folder [here]([https://github.com/ftynfrhn/KICT-AR-Way-Indoor-Navigation/Assets/Build](https://github.com/ftynfrhn/KICT-AR-Way-Indoor-Navigation/tree/main/Assets/Build)).
+Download the app from the build folder in the Assets folder [here](https://github.com/ftynfrhn/KICT-AR-Way-Indoor-Navigation/tree/main/Assets/Build).
 
 Watch our demo video [here](https://youtu.be/5HIdueidxqk?si=9QRDggubn9azS12H) to see KICT AR Way in action.
 
