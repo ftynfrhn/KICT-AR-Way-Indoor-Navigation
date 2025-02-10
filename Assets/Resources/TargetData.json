@@ -1,0 +1,327 @@
+{
+	"TargetList": [
+		{
+			"Name": "You are now at?",
+			"FloorNumber": 0,
+			"Position": {
+				"x": 0.00,
+				"y": 0.00,
+				"z": 0.00
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "CITA",
+			"FloorNumber": 2,
+			"Position": {
+				"x": -4.44,
+				"y": 0.00,
+				"z": -35
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -14,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Dean Office, IIUM Academy",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 88.68,
+				"y": 0.00,
+				"z": -65.87
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29.964,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "IIUM Islamic Banking and Finance (IIiBF)",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 41.5,
+				"y": 0.00,
+				"z": -81.2
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16.5,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Lecturer Room Entrance",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 21,
+				"y": 0.00,
+				"z": -76
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 31,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Lift B",
+			"FloorNumber": 2,
+			"Position": {
+				"x": -0.5,
+				"y": 0.00,
+				"z": 0.2
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 30,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Lift D",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 84.8,
+				"y": 0.00,
+				"z": -67.5
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -13,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "LR 9",
+			"FloorNumber": 2,
+			"Position": {
+				"x": -3,
+				"y": 0.00,
+				"z": -51.8
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 30,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "LR 13",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 41.5,
+				"y": 0.00,
+				"z": -81.8
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16.3,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "LR 14",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 78.05,
+				"y": 0.00,
+				"z": -72.07
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16.3,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "LR 14A",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 78.12,
+				"y": 0.00,
+				"z": -71.4
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16.3,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "KICT Multipurpose Hall",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 38.38,
+				"y": 0.00,
+				"z": 25.86
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "PG Lab 5",
+			"FloorNumber": 2,
+			"Position": {
+				"x": -7.6,
+				"y": 0.00,
+				"z": -59.9
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -58,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "PG Lab 6",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 3.47,
+				"y": 0.00,
+				"z": -66.32
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -58,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Post Graduate Office",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 8.11,
+				"y": 0.00,
+				"z": 5.28
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 31.3,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Professor Room Entrance",
+			"FloorNumber": 2,
+			"Position": {
+				"x": -9.86,
+				"y": 0.00,
+				"z": -10.72
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 28.4,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 1",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 2.5,
+				"y": 0.00,
+				"z": -6.5
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29.5,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 2",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 7.7,
+				"y": 0.00,
+				"z": 24
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 3",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 0.9,
+				"y": 0.00,
+				"z": -48.9
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 4",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 31.5,
+				"y": 0.00,
+				"z": -87.1
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 5",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 89.9,
+				"y": 0.00,
+				"z": -71.3
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "staircase 6",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 97.7,
+				"y": 0.00,
+				"z": -40.8
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 29,
+				"z": 0.0
+			}
+		},
+		
+		{
+			"Name": "staircase 8",
+			"FloorNumber": 2,
+			"Position": {
+				"x": 39.52,
+				"y": 0.00,
+				"z": 22.2
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -16,
+				"z": 0.0
+			}
+		}
+	]
+}
